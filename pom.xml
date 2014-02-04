@@ -18,8 +18,8 @@
 			<groupId>org.ahmadsoft</groupId>
 			<artifactId>ropes</artifactId>
 			<version>1.2.5</version>
-			<scope>system</scope>
-			<systemPath>${project.basedir}/lib/ropes.jar</systemPath>
+<!-- 			<scope>system</scope> -->
+<!-- 			<systemPath>${project.basedir}/lib/ropes.jar</systemPath> -->
 		</dependency>
 		<dependency>
 			<groupId>org.perf4j</groupId>
