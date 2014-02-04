@@ -15,6 +15,9 @@ public class App {
         t = new StringsBasicTest();
         runTest(t, "String");
 
+        t = new StringBuilderTest();
+        runTest(t, "StringBuilder");
+
         t = new RopesBasicTest();
         runTest(t, "Ropes");
     }
@@ -56,7 +59,7 @@ public class App {
         stopWatch.stop();
 
         // give the JVM a chance to cleanup
-        //System.out.print("cleanup... ");
+        // System.out.print("cleanup... ");
         sleep(3);
         System.gc();
         sleep(10);
