@@ -12,3 +12,6 @@ It runs the following types of tests:
 * concatenate character
 * concatenate string
 * search substring
+
+The original blog post for this can be found on my blog here: http://liviutudor.com/2014/02/04/java-strings-vs-ropes/ 
+together with the results for it.
